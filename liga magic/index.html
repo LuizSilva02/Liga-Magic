@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Cartas de Magic</title>
+</head>
+<body>
+
+    <header>
+        <h1>Liga Magic</h1>
+    </header>
+
+    <div class="container">
+        <div class="carousel-container">
+            <div class="carousel" id="card-carousel">
+                <div class="card-slide">
+                    <img src="8intuition.jpg" alt="Carta 1">
+                    <div class="card-details">
+                        <h3>INTUITION</h3>
+                        <h4>DETALHES DA CARTA</h4>
+                        <span class="text">Cor</span>
+                        <span class="texto">AZUL</span>
+                        <div class="circle-container">
+                            <span class="text">Custo de Mana</span>
+                            <span class="blue-circle"></span><span class="blue-circle"></span>
+                        </div>
+                        <p>Preço Médio marketplace: $5.00</p>
+                        <button onclick="adicionarLista()">Adicionar à Lista</button>
+                    </div>
+                </div>
+                <div class="card-slide">
+                    <img src="8intuition.jpg" alt="Carta 2">
+                    <div class="card-details">
+                        <h3>INTUITION</h3>
+                        <h4>DETALHES DA CARTA</h4>
+                        <span class="text">Cor</span>
+                        <span class="texto">AZUL</span>
+                        <div class="circle-container">
+                            <span class="text">Custo de Mana</span>
+                            <span class="blue-circle"></span><span class="blue-circle"></span>
+                        </div>
+                        <p>Preço Médio no marketplace: $5.00</p>
+                        <button onclick="adicionarLista()">Adicionar à Lista</button>
+                    </div>
+                </div>
+                <div class="card-slide">
+                    <img src="8intuition.jpg" alt="Carta 3">
+                    <div class="card-details">
+                        <h3>INTUITION</h3>
+                        <h4>DETALHES DA CARTA</h4>
+                        <span class="text">Cor</span>
+                        <span class="texto">AZUL</span>
+                        <div class="circle-container">
+                            <span class="text">Custo de Mana</span>
+                            <span class="blue-circle"></span><span class="blue-circle"></span>
+                        </div>
+                        <p>Preço Médio marketplace: $5.00</p>
+                        <button onclick="adicionarLista()">Adicionar à Lista</button>
+                    </div>
+                </div>
+                <!-- Adicione mais slides conforme necessário -->
+            </div>
+        </div>
+
+        <div class="cart-list">
+            <h2>Lista de Cartas Adicionadas</h2>
+            <p>Total de cartas: <span id="contador">0</span></p>
+            <button onclick="Remover()">Remover</button>
+            <ul id="cart-list-ul">
+                
+                <!-- A lista de cartas adicionadas será exibida aqui -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

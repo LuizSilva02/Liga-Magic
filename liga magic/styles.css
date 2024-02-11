@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carousel-container {
+    width: 60%;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.card-slide {
+    position: relative;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.card-details {
+    position: left;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255).8;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.cart-list {
+    width: 35%;
+}
+
+#cart-list-ul {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-list-ul li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart-list-ul li img {
+    max-width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.circle-container {
+    position: relative;
+}
+
+.blue-circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.text {
+    font-size: 18px;
+    color: #333;
+}
+
+.texto{
+    color: blue;
+    padding-left: 115px;
+}
